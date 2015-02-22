@@ -1,0 +1,30 @@
+@import url(//fonts.googleapis.com/css?family=Lora:400,700,400italic);
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(//fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+/*Color scheme changes
+	FF-FF-FF to FD-FD-FD
+
+*/
+
+/* Basic element styles */
+	*{}
+	html{}
+	body {
+		padding:30px;
+		font:17px/1.5 "Lora", "Helvetica Neue", Arial, sans-serif;
+		text-shadow: rgba(0,0,0,0.2) 0px 1px;
+		color: #616161;
+		font-weight:400;
+		height: 100%;
+		background: #FFFFFF;
+	}
+	
+       h {
+    		left: 594px;
+    		min-height: 24px;
+    		position: absolute;
+    		top: 127px;
+    		width: 505px;
+ 	}
+	

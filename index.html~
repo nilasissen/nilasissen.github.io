@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio</title>
+    <!-- Bootstrap Core CSS -->
+    <link href=" /home/neel/Documents/new resume/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/home/neel/Documents/new resume/css/portfolio-item.css" rel="stylesheet"> 
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/home/neel/Documents/new resume/index.html">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                       <a href="/home/neel/Documents/new resume/resume.html">Resume</a>
+                      
+                    </li>
+                    <li>
+                      <a href="/home/neel/Documents/new resume/project.html">Project</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    <small></small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+        <aside>
+				<div class="nameage">
+<!--Image-->		<img src="#" width="140" height="140" style="border-radius: 10px;" alt=""/>
+<!--Nilasis sen-->	
+				
+            <div class="col-md-8"style="width:550px">
+                <img class="img-thumbnail" style="width: 300px;"src="/home/neel/Documents/new resume/img/me2.jpg" alt="">
+                <h1 style="font-size: 2.7em; font-weight: 700; margin: 6px 26px 8px;">Nilasis Sen</h1>
+                <div class="contactbox">
+					
+		<a href="mailto:sen.nilasis90@gmail.com" title="Send me a mail?" target="_top">sen.nilasis90@yahoo.com</a>
+<!--email-->	
+			<a href="https://github.com/nilasissen/" title="View my repositories" target="_blank" style="margin-top: 0.3em;">
+				
+			<img src="/home/neel/Documents/new resume/img/iconmonstr-github-5-icon.svg" class="contacticon" alt="Github" height="30px" width="30px"/>
+					<span id="github-id">Nilasissen</span>
+					</a>
+			<a href="https://in.linkedin.com/pub/nilasis-sen/a6/276/561" title="Connect on LinkedIn" target="_blank">
+			<img src="/home/neel/Documents/new resume/img/iconmonstr-linkedin-5-icon.svg" class="contacticon" alt="LinkedIn" height="30px" width="30px"/>
+						<span id="linkedin-id">nilasis-sen</span>
+					</a>
+					</a>
+				</div>
+            </div>
+            </div>
+
+            
+               	<section>
+	<!--Home-->
+				<article style="">
+					<div style="">
+						<h2 id="home" style="font-size: 3em;"><em>Hello!</em></h2>
+					</div>
+					<h3 style="margin-left:0px; text-decoration: none;"><em>I'm Nilasis sen, an Oracle applications developer&#47;web programmer from Kolkata, India.</em></h3>
+					<p>
+						I finished my Bachelor's degree. with merit in Computer Science from <a href="http://www.aitchikmagalur.ac.in/" class="btn" target="_blank"><strong>The AIT.</strong></a> in the July of 2013.
+						after to that, I got Certification on Advance java from <a href="#" target="_blank"class="btn"><strong>The NIIT .</strong></a>
+						Currently I am working on oracle application platform(apex) or webdev projects(angularjs,android) and the rest multitasking between my own projects and responsibilities.
+						
+						-I am a big fan and follower of my Father He always told me Money is lying everywhere, you need the right vision and ability to find a way to earn it
+							
+							
+						- At 23, I believe I can change the world, I am full of positive energy (you could also see that in my profile picture), passionate to get things done, hard worker, greedy for success and possess the ability to take risk.
+							I am seeking an opportunity to take up a challenging role within a technology driven, fast-paced the environment. I believe I will excel, as I possess excellent communication and analytical skills, combined with the ability to work methodically in a high-pressure environment.
+					</p>
+				</article>
+           
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <div class="row">
+<aside>
+           <!-- <div class="col-lg-12">
+                <h3 class="page-header">Related Projects</h3>
+            </div>-->
+            <article style="">
+					<div class="anchor" style="padding-top: 0;">
+						<h2 id="projects"><a href="projects.html" style="color: inherit;">Working Areas</a></h2>
+					</div>
+					<hr/>
+
+           <div class="col-sm-3 col-xs-6;">
+
+		<img style="width: 50px;" class="contacticon" src="/home/neel/Documents/new resume/img/Oracle.png" alt="">	
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img style="width:70px;" class="contacticon" src="/home/neel/Documents/new resume/img/andr.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img width="70px"class="img-responsive portfolio-item" src="/home/neel/Documents/new resume/img/pl-sql.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+					<img width="70px"class="img-responsive portfolio-item" src="/home/neel/Documents/new resume/img/js2.png" alt="">
+                </a>
+                
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+					<img width="70px"class="img-responsive portfolio-item" src="/home/neel/Documents/new resume/img/java.png" alt="">
+                </a>
+                
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+					<img width="70px"class="img-responsive portfolio-item" src="/home/neel/Documents/new resume/img/python.png" alt="">
+                </a>
+                
+            </div>
+			<div class="col-sm-3 col-xs-6">
+					<img width="70px"class="focus pic" src="/home/neel/Documents/new resume/img/jsp.png" alt="">
+               
+                
+            </div>
+        </div>
+			
+        </aside>
+        <!-- Resume Details-->
+        <div class="row">
+        <aside>
+        <article style="">
+					<div class="anchor" style="padding-top: 0;">
+						<h2 id="projects"><a href="#" style="color: inherit;">Resume</a></h2>
+					</div>
+					
+        </aside>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+				<aside>
+                <div class="col-lg-12">
+                    <p>
+					&copy; NILASIS SEN
+					<br/>
+					<small>Hosted on GitHub Pages</p>
+					</aside>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
