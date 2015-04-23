@@ -13,6 +13,7 @@
     <link href=" css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/portfolio-item.css" rel="stylesheet"> 
+    <link href="css/preload.css" rel="stylesheet">
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,6 +23,12 @@
     <![endif]-->
 </head>
 <body>
+	<!-- Preloader -->
+      <div id="faceoff">
+        <div id="preloader"></div>
+        <div class="preloader-section"></div>
+      </div>
+    <!-- Preloader end -->
     <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -214,11 +221,19 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+<script>
+$(window).load(function(){
+	 // will first fade out the loading animation
+    $(".preloader").fadeOut();
+    //then background color will fade out slowly
+    $("#faceoff").delay(1000).fadeOut("slow");
+	});
+	
+</script>
 </body>
 
 </html>
