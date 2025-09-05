@@ -400,4 +400,19 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+
+    .roadmap-container {
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* for smooth scrolling on iOS */
+        scroll-snap-type: x mandatory; /* enables snap scrolling */
+        padding-bottom: 1rem; /* space for scrollbar */
+    }
+
+    .roadmap {
+        flex: 0 0 90%; /* each item takes 90% of the container width */
+        scroll-snap-align: start; /* snap to the start of the item */
+        margin-bottom: 0;
+        margin-right: 15px;
+    }
 }
